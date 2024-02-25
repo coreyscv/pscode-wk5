@@ -1,21 +1,15 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
-a + b = c
-
-num1 + num2 = sum
-print sum
-
-ask for 2 numbers 
-add the 2 number together 
-print on the screen the sum of those 2 numbers
-
-
-
-(Your pseudocode here)
+create double variable x, y
+Calculate x + y = z
+print out to screen z
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+create double variable x
+use the modulus operator to divide by 2 and find the remainder 
+using an if statement if x % 2 == 0 print number is Even
+else number is odd with a return value of 1
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -25,6 +19,10 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+a) create an array for numbers 1-5
+b) calculate the sum of numbers 1-5 divided by 5
+c) create two double variables with the min and max methods under System.Linq to store the minimum and maximum values from the array
+d) print out "The average of numbers 1-5" + average, and print out "Minimum Number = " [variable holding min value of array]
+"Maximum number = " [variable holding max value of array]
 
 -- END --
